@@ -119,6 +119,7 @@ class TourCard extends StatelessWidget {
         height: 100,
         width: 200,
         decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(8.0),
             image: DecorationImage(
               image: NetworkImage(image),
               fit: BoxFit.cover,
